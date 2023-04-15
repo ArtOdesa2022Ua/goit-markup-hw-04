@@ -152,6 +152,8 @@ img {
 .hero-image {
     padding: 188px 0 188px;
     background: #2E2F42;
+    background-image: url(../images/people_office.png);
+    background-size: cover;
 }
 
 .hero {
@@ -219,6 +221,13 @@ img {
 .section-strategy {
     flex-basis: calc((100% - 72px) / 4);
 }
+.vector {
+    width: 264px;
+    height: 112px;
+    padding: 24px 100px;
+    background-color: #F4F4FD;
+}
+
 /* ----------------- section 2 END -----------------*/
 
 
@@ -247,7 +256,7 @@ img {
     list-style-type: none;
 }
 .img-link-one {
-    width: calc((100% - 48px) / 3);
+    /* width: calc((100% - 48px) / 3); */
 }
 
 /* ----------------- section 3 END -----------------*/
@@ -258,6 +267,7 @@ img {
 .cont {
     padding: 120px 0;
     background-color: #F4F4FD;
+    margin-bottom: 50px;
 }
 
 .section-four {
@@ -300,11 +310,27 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-slate);
+    margin-bottom: 8px;
 }
 
+.social_networks {
+    display: flex;
+    justify-content: space-between;
+}
 
 /* ----------------- section 4 END -----------------*/
 
+/* ----------------- section 5 start ----------------- */
+.customers-logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.customers {
+    margin-bottom: 50px;
+}
+
+/* ----------------- section 5 end ----------------- */
 
 /* ----------------- Footer START -----------------*/
 .footer {
@@ -342,7 +368,12 @@ img {
     color: #F4F4FD;
     text-decoration: none;
 }
-
+.social-media {
+    margin: 0 auto;
+}
+.social-media-link {
+    flex-direction: row;
+}
 /* ----------------- Footer END -----------------*/
 
 /* ----------------- Portfolio START ----------------- */
