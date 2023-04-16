@@ -399,9 +399,6 @@ img {
 
 /* ----------------- Footer START -----------------*/
 .container {
-    display: flex;
-    align-items: baseline;
-    margin-right: 120px;
 }
 .logo_p {
     display: flex;
@@ -444,9 +441,22 @@ img {
     text-decoration: none;
 }
 .social-media {
-    margin: 0 auto;
+}
+.footer-text-SM {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
 }
 .social-media-link {
+    display: flex;
+    gap: 16px;
+}
+.socials-item {
+    width: 40px;
+    height: 40px;
 }
 /* ----------------- Footer END -----------------*/
 
