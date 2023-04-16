@@ -435,13 +435,12 @@ img {
     text-decoration: none;
 }
 .social-media {
-    display: flex;
-    align-items: baseline;
-    margin-right: 120px;
     margin: 0 auto;
 }
 .social-media-link {
-    flex-direction: row;
+    display: flex;
+    align-items: baseline;
+    margin-right: 120px;
 }
 /* ----------------- Footer END -----------------*/
 
