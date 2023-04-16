@@ -363,12 +363,16 @@ img {
 }
 
 .customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
     margin-bottom: 50px;
 }
 .container {
 }
 .section-four {
+    line-height: 1.1;
 }
+
 .clients-list {
     display: flex;
     align-items: center;
@@ -382,6 +386,7 @@ img {
     height: 88px;
     border: 1px solid #8E8F99;
     border-radius: 4px;
+    color: #8e8f99;
 }
 .clients-link:hover,
 .clients-link:focus {
