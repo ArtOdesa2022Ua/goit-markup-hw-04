@@ -367,8 +367,7 @@ img {
     padding-bottom: 120px;
     margin-bottom: 50px;
 }
-.container {
-}
+
 .section-four {
     line-height: 1.1;
 }
@@ -399,6 +398,16 @@ img {
 /* ----------------- section 5 end ----------------- */
 
 /* ----------------- Footer START -----------------*/
+.container {
+    display: flex;
+    align-items: baseline;
+    margin-right: 120px;
+}
+.logo_p {
+    display: flex;
+    align-items: baseline;
+    margin-right: 120px;
+}
 .footer {
     background-color: #2E2F42;
     padding: 100px 0;
@@ -438,9 +447,6 @@ img {
     margin: 0 auto;
 }
 .social-media-link {
-    display: flex;
-    align-items: baseline;
-    margin-right: 120px;
 }
 /* ----------------- Footer END -----------------*/
 
