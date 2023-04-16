@@ -226,9 +226,12 @@ img {
     width: 264px;
     height: 112px;
     padding: 24px 100px;
-    background-color: #F4F4FD;
+    background-color: var(--color-cloud);
+    border-radius: 4px;
 }
-
+.strategy-icon {
+    
+}
 /* ----------------- section 2 END -----------------*/
 
 
@@ -371,7 +374,6 @@ img {
     height: 88px;
     border: 1px solid #8E8F99;
     border-radius: 4px;
-    color: #8e8f99;
 }
 .clients-link:hover,
 .clients-link:focus {
@@ -379,7 +381,7 @@ img {
     color: var(--color-ocean);
 }
 .clisent-icon {
-    fill: var(--color-ocean);
+    fill: currentColor;
 }
 /* ----------------- section 5 end ----------------- */
 
