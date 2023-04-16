@@ -225,11 +225,15 @@ img {
     flex-basis: calc((100% - 72px) / 4);
 }
 .vector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 264px;
     height: 112px;
     padding: 24px 100px;
     background-color: var(--color-cloud);
     border-radius: 4px;
+    margin-bottom: 8px;
 }
 
 /* ----------------- section 2 END -----------------*/
