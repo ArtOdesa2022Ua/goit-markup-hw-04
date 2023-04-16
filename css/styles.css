@@ -271,7 +271,9 @@ img {
 
 
 /* ----------------- section 4 START -----------------*/
-
+.name-prof {
+    padding: 32px 0;
+}
 .cont {
     padding: 120px 0;
     background-color: #F4F4FD;
