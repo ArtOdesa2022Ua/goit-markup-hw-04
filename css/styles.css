@@ -446,7 +446,7 @@ img {
 }
 .social-media {
 }
-.footer-text-SM {
+.text-sm {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -457,10 +457,15 @@ img {
 .social-media-link {
     display: flex;
     gap: 16px;
+    list-style-type: none;
 }
 .socials-item {
     width: 40px;
     height: 40px;
+}
+.socials-item:hover,
+.socials-item:focus {
+    background-color: #31d0aa;
 }
 /* ----------------- Footer END -----------------*/
 
