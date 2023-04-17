@@ -348,7 +348,7 @@ img {
 }
 .socials-link:hover,
 .socials-link:focus {
-    background-color: var(--color-ocean);
+    background-color: #404bbf;
     color: var(--color-iris);
 }
 .socials-icon {
