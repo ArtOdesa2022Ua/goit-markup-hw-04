@@ -349,7 +349,6 @@ img {
 .socials-link:hover,
 .socials-link:focus {
     background-color: #404bbf;
-    color: var(--color-iris);
 }
 .socials-icon {
     fill: #f4f4fd;
