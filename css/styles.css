@@ -398,10 +398,14 @@ img {
 /* ----------------- section 5 end ----------------- */
 
 /* ----------------- Footer START -----------------*/
-.container {
+.container-footer {
+    display: flex;
+    align-items: baseline;
+    margin-right: 120px;
 }
 .logo_p {
     display: flex;
+    justify-content: center;
     align-items: baseline;
     margin-right: 120px;
 }
