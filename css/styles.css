@@ -467,11 +467,12 @@ img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    background-color: #4d5ae5;
 }
     
 .socials-footer-link:hover,
 .socials-footer-link:focus {
-    background-color: #4d5ae5;
+    background-color: #31d0aa;
 }
 /* ----------------- Footer END -----------------*/
 
