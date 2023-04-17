@@ -463,8 +463,8 @@ img {
     width: 40px;
     height: 40px;
 }
-.socials-item:hover,
-.socials-item:focus {
+.socials-link:hover,
+.socials-link:focus {
     background-color: #31d0aa;
 }
 /* ----------------- Footer END -----------------*/
