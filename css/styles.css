@@ -385,7 +385,6 @@ img {
     height: 88px;
     border: 1px solid #8E8F99;
     border-radius: 4px;
-    color: #8e8f99;
 }
 .clients-link:hover,
 .clients-link:focus {
@@ -404,10 +403,8 @@ img {
     margin-right: 120px;
 }
 .logo_p {
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
     margin-right: 120px;
+    padding-left: 156px;
 }
 .footer {
     background-color: #2E2F42;
